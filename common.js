@@ -1,5 +1,5 @@
 var chunicommon = document.createElement('script')
-chunicommon.src="https://chunithm.wahlap.com/mobile/js/common.js?ver=1.00&_t="+Date.now()
+chunicommon.src="https://chunithm.wahlap.com/mobile/js/common.js?ver=1.20&_t="+Date.now()
 document.body.append(chunicommon)
 if (location.href.match(/playlog/) || (location.href.match(/musicGenre/) && window.$(".box01_title span").length)) {
   var button = document.createElement('div')
